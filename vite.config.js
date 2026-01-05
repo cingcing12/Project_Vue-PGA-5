@@ -5,8 +5,8 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   
-  // 👇 CHANGE THIS LINE EXACTLY TO THIS:
-  base: './', 
+  // CHANGE THIS TO MATCH YOUR NEW REPO EXACTLY:
+  base: '/Project_Vue-PGA-5/',
   
   resolve: {
     alias: {
